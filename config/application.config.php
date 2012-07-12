@@ -1,8 +1,15 @@
 <?php
-/**
- * Created by JetBrains PhpStorm.
- * User: oxodesign
- * Date: 12.07.12
- * Time: 11:20
- * To change this template use File | Settings | File Templates.
- */
+return array(
+    'modules' => array(
+        'Empirio',
+    ),
+    'module_listener_options' => array(
+        'config_glob_paths'    => array(
+            'config/autoload/{,*.}{global,local}.php',
+        ),
+        'module_paths' => array(
+            './module',
+            './vendor',
+        ),
+    ),
+);

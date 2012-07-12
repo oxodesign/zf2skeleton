@@ -1,0 +1,9 @@
+{
+    "name": "empirio/zf2skeleton",
+    "description": "ZF2 skeleton application",
+    "homepage": "http://www.empirio.no/",
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.0.0beta5"
+    }
+}
